@@ -1,0 +1,336 @@
+	html {
+		scroll-behavior: smooth;
+	}
+
+	h1, p {
+		margin: 0;
+	}
+
+	* {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
+
+	#main {
+		max-width: 768px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		padding:0px 0px 5px 0px;
+	}
+
+	#header {
+		background-color: #ffffff;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+
+	#header, #error-messages, #footer {
+		margin: 0 auto;
+	}
+
+	.wrapper, #footer {
+		padding: 0px 50px 0px 50px;
+	}
+
+	#footer {
+		background-color: #ffffff;
+		padding: 25px 0px 30px 0px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+
+	#error-messages {
+		background-color: #ffffff;
+		padding-top: 35px;
+		display: none;
+		transition: 1s;
+	}
+
+	#error-messages .error-container {
+		background-color: #f8d7da;
+		padding: 30px;
+		border-radius: 10px;
+		color: #721c24;
+		font-weight: bold;
+border: 1px solid #721c24;
+	}
+
+	#form-container {
+		padding-top: 10px;
+	}
+
+	.inner-wrapper {
+		background-color: #f9f9f9;
+		border-radius: 10px;
+	}
+
+	body {
+		margin: 30px 8px 30px 8px;
+		background-color: #e6f2ff;
+	}
+
+	#name-label, #email-label, #age-label, #drop-down-label, #system-label, #drop-down-label-2, #system-label-2, #textbox {
+		font-weight: bold;
+	}
+
+	div #title {
+		text-align: center;
+		padding: 25px 0px 20px 0px;
+	}
+
+	div #title h1 {
+		padding: 0px 20px 0px 20px;
+	}
+
+	div #title p {
+		padding: 10px 20px 0px 20px;
+	}
+
+	div #description {
+		text-align: center;
+		padding: 0px 20px 0px 20px;
+	}
+
+	div .row {
+		width: 100%;
+	}
+
+	div #row-1 {
+		margin-top: 25px;
+		padding-top: 25px;
+	}
+
+	div #row-4 {
+		margin-top: 20px;
+	}
+
+	div #row-5, div #row-7 {
+		margin-top: 10px;
+	}
+
+	div #row-6 {
+		margin-top: 10px;
+	}
+
+	div #row-8 {
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
+	div .label {
+		width: 40%;
+		text-align: right;
+		display: inline-block;
+		padding: 7px 7px 7px 20px;
+		margin-top: 10px;
+		vertical-align: top;
+	}
+
+	div .input input {
+		width: 250px;
+		border: 1px solid #999;
+		border-radius: 10px;
+		padding: 5px;
+		height: 20px;
+		margin: 10px;
+	}
+
+	div .input, div .select, div .radio, div .checkbox, div .textbox {
+		width: 48%;
+		display: inline-block;
+	}
+
+	div .radio,
+	div .checkbox {
+		margin-left: 10px;
+	}
+
+	div #radio-container, div #checkbox-container {
+		border-radius: 10px;
+	}
+
+	div #drop-down-label, div #drop-down-label-2 {
+		margin-top: 0;
+	}
+
+	div .select #dropdown, div .select #dropdown-2 {
+		border: 1px solid #999;
+		height: 30px;
+		width: 225px;
+		margin: 10px;
+		padding: 5px;
+		border-radius: 10px;
+	}
+
+	div .radio ul,
+	div .checkbox ul {
+		list-style-type: none;
+		margin: 15px 10px 0px 10px;
+		padding: 5px;		
+	}
+
+	div .radio li,
+	div .checkbox li {
+		margin-bottom: 10px;
+	}
+
+	div .radio ul li input,
+	div .checkbox ul li input {
+		vertical-align: top;
+		margin: 1px 10px 1px 0px;
+	}
+
+	div #textbox {
+		padding: 0px 0px 7px 20px;
+		margin-top: 0px;
+	}
+
+	div .textbox {
+		margin: 0px 10px 10px 10px;
+		padding: 0px 5px 5px 5px;
+	}
+
+	div #textboxfield {
+		border-radius: 10px;
+	}  
+
+	div .textbox textarea {
+		padding: 5px;
+	}
+
+	div .button {
+		text-align: center;
+	}
+
+	div .button button {
+		border: 1px solid transparent;
+		border-radius: .25rem;
+		border-bottom: 2px solid brown;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		background-color: red;
+		color: white;
+		font-size: 18px;
+		line-height: 27px;
+		padding: 7px 100px;
+		margin-bottom: 40px;
+		border-radius: 10px;
+	}
+
+	div #footer {
+		background-color: #ffffff;
+		padding: 0px 20px 30px 20px;
+	}
+
+	div #footer p {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	@media only screen and (max-width: 767px) {
+
+	#header, #main, #footer {
+		max-width: 100%;
+		padding: 0px 20px 0px 20px;
+	}
+
+	.wrapper {
+		padding: 0px 0px 0px 0px;
+	}
+
+	#footer {
+		padding: 25px 20px 25px 20px;
+	}
+
+	div #row-1 {
+		margin-top: 25px;
+	}
+
+	div #row-2, div #row-3 {
+		margin-top: 0px;
+	}
+
+	div #row-6 {
+		margin-top: 10px;
+	}
+
+	div #row-4 {
+		margin-top: 15px;
+	}
+
+	div #row-5, div #row-7 {
+		margin-top: 20px;
+	}
+
+	div #row-8 {
+		margin-top: 20px;
+	}
+
+	div .label {
+		margin-top: 0px;
+		width: 80%;
+		padding: 7px 0px 7px 20px;
+		text-align: left;
+	}
+
+	div .input {
+		width: 95%;
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+	div .input input {
+		width: 80%;
+		float: left;
+	}
+
+	div #drop-down-label, div #drop-down-label-2 {
+		width: 80%;
+		margin-right: 5px;
+		padding-left: 20px;
+		text-align: left;
+	}
+
+	div .select {
+		padding-left: 10px;
+	}
+
+	div .select #dropdown, div .select #dropdown-2 {
+		width: 125%;
+		border-radius: 10px;
+	}
+
+	div .radio,
+	div .checkbox {
+		width: 80%;
+		padding-left: 10px;
+		margin-left: 20px;
+	}
+
+	div .textbox {
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
+	div .textbox textarea {
+		width: 175%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#header, #error-messages, #main, #footer {
+		max-width: 768px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+	#header, #error-messages, #main, #footer {
+		max-width: 992px;
+	}
+}
+
+@media (min-width: 1024px) {
+	#header, #error-messages, #main, #footer {
+		max-width: 1024px;
+	}
+}

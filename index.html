@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>🎮 Video Game Survey Form 📝</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">				
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header id="header">
+		<div class="wrapper">
+			<h1 id="title">🎮 Video Game Survey Form 📝</h1>
+			<p id="description">Thank you for taking part in this video game community survey. <br>Please fill out all the fields with your details below* and we will be in contact with the results. <br>Happy gaming! 🎮 🕹️</p>
+		</div>
+	</header>
+	<div id="error-messages">
+		<div class="wrapper">
+			<div class="error-container">
+
+			</div>
+		</div>
+	</div>
+	<main id="main">
+		<div id="form-container" class="wrapper">
+			<div class="inner-wrapper">
+				<div>
+					<form action="#" method="post" name="myForm" id="survey-form">
+						<div class="row" id="row-1">
+							<div class="label">
+								<label for="fullname" id="name-label">**Name: </label>
+							</div>
+							<div class="input">
+								<input type="text" name="fullname" id="fullname" placeholder="Name">
+							</div>
+						</div>
+						<div class="row" id="row-2">
+							<div class="label">
+								<label for="email" id="email-label">**Email: </label>
+							</div>
+							<div class="input">
+								<input type="email" name="email" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="row" id="row-3">
+							<div class="label">
+								<label for="age" id="age-label">**Age: </label>
+							</div>
+							<div class="input">
+								<input type="number" name="age" id="age" placeholder="Age">
+							</div>
+						</div>
+						<div class="row" id="row-4">
+							<div class="label" id="drop-down-label">
+								<label for="dropdown">**Which of these options best describes your current role?</label>
+							</div>
+							<div class="select">
+								<select name="dropdown" id="dropdown">
+										<option disabled selected value>Please select an option</option>
+										<option value="Student">Student</option>
+										<option value="Full Time Job">Full Time Job</option>
+										<option value="Full Time Learner">Full Time Learner</option>
+										<option value="Prefer not to say">Prefer not to say</option>
+										<option value="Other">Other</option>
+								</select>
+							</div>
+						</div>
+						<div class="row" id="row-5">
+							<div class="label">
+								<label id="system-label">**Which of the following current console devices do you regularly play the most?</label>
+							</div>
+							<div class="radio" id="radio-container">
+								<ul>
+									<li><input type="radio" name="modern-system" id="modern-system-1" class="radio-btn"><label for="modern-system-1">Sony PlayStation 4</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-2" class="radio-btn"><label for="modern-system-2">Nintendo Switch</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-3" class="radio-btn"><label for="modern-system-3">Xbox One</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-4" class="radio-btn"><label for="modern-system-4">Microsoft Windows PC</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-5" class="radio-btn"><label for="modern-system-5">Mac OS X</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-6" class="radio-btn"><label for="modern-system-6">Apple iOS</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-7" class="radio-btn"><label for="modern-system-7">Google Android</label></li>
+									<li><input type="radio" name="modern-system" id="modern-system-8" class="radio-btn"><label for="modern-system-8">Other</label></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row" id="row-6">
+							<div class="label" id="drop-down-label-2">
+								<label for="dropdown-2">*Who is your favourite video game manufacturer?</label>
+							</div>
+							<div class="select">
+								<select name="dropdown-2" id="dropdown-2">
+										<option disabled selected value>Please select an option</option>
+										<option value="Sony">Sony</option>
+										<option value="Nintendo">Nintendo</option>
+										<option value="Microsoft">Microsoft</option>
+										<option value="Sega">Sega</option>
+										<option value="Atari">Atari</option>
+										<option value="Other">Other</option>
+								</select>
+							</div>
+						</div>
+						<div class="row" id="row-7">
+							<div class="label">
+								<label id="system-label-2">**Which of the following retro consoles do you own?</label>
+							</div>
+							<div class="checkbox" id="checkbox-container">
+								<ul>
+									<li><input type="checkbox" name="retro-system" id="system-1" class="radio-btn"><label for="system-1">Nintendo Entertainment System</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-2" class="radio-btn"><label for="system-2">Super Nintendo Entertainment System</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-3" class="radio-btn"><label for="system-3">Sega Master System</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-4" class="radio-btn"><label for="system-4">Sega Mega Drive / Genesis</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-5" class="radio-btn"><label for="system-5">Atari 2600</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-6" class="radio-btn"><label for="system-6">Atari 5200</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-7" class="radio-btn"><label for="system-7">Nintendo 64</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-8" class="radio-btn"><label for="system-8">Game Boy / Game Boy Color</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-9" class="radio-btn"><label for="system-9">Sony PlayStation</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-10" class="radio-btn"><label for="system-10">Sega Saturn</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-11" class="radio-btn"><label for="system-11">Sega Dreamcast</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-12" class="radio-btn"><label for="system-12">Nintendo Gamecube</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-13" class="radio-btn"><label for="system-13">Game Boy Advance</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-14" class="radio-btn"><label for="system-14">Sony PlayStation 2</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-15" class="radio-btn"><label for="system-15">Microsoft Xbox</label></li>
+									<li><input type="checkbox" name="retro-system" id="system-16" class="radio-btn"><label for="system-16">Other</label></li>
+								</ul>
+							</div>
+						</div>
+						<div class="row" id="row-8">
+							<div class="label" id="textbox-label">
+								<label for="textboxfield">If you have any further comments or suggestions, please leave them here:</label>
+							</div>
+							<div class="textbox">
+								<textarea name="textboxfield" id="textboxfield" cols="40" rows="5" placeholder="Enter your comment here..."></textarea>
+							</div>
+						</div>
+						<div class="row" id="row-9">
+							<div class="button">
+								<button type="submit">Submit</button>
+							</div>
+						</div>	
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id="footer">
+		<div class="wrapper">
+			<p>*For Demonstration Purposes Only. No form of data is submitted from this application.</p>
+			<p>**Required fields.</p>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
