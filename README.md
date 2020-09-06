@@ -7,4 +7,6 @@ To use the form, simply fill in the various radio buttons, checkbox buttons, dro
 
 Once the form has been completed, the web application will display a message to indicate to the user that the form has now been completed, and after few seconds, will refresh the page.
 
+This application is an update/remake of a version that I had made from 2019 and improved the JavaScript and UI. This web application makes use of Regex, ternary operator, reusable functions, error messages/styling display on HTML and setTimeout() on submit.
+
 This survey form is for demonstration purposes only.
