@@ -10,3 +10,5 @@ Once the form has been completed, the web application will display a message to 
 This application is an update/remake of a version that I had made from 2019 and improved the JavaScript and UI. This web application makes use of Regex, ternary operator, reusable functions, error messages/styling display on HTML and setTimeout() on submit.
 
 This survey form is for demonstration purposes only.
+
+Originally developed in 2019.
